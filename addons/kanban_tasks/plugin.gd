@@ -1,5 +1,5 @@
 @tool
-extends "res://addons/kanban_tasks/standalone_plugin.gd"
+extends "standalone_plugin.gd"
 
 
 const __Singletons := preload("res://addons/kanban_tasks/plugin_singleton/singletons.gd")

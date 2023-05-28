@@ -1,8 +1,8 @@
 @tool
 class_name StepHolder extends VBoxContainer
 
-const __StepData := preload("res://addons/kanban_tasks/data/step.gd")
-const __StepEntry := preload("res://addons/kanban_tasks/view/details/step_entry.gd")
+const __StepData := preload("../../data/step.gd")
+const __StepEntry := preload("step_entry.gd")
 
 @export var scrollable: bool = true:
 	set(value):

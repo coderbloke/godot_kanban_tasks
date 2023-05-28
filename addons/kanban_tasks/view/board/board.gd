@@ -4,16 +4,16 @@ extends VBoxContainer
 ## The visual representation of a kanban board.
 
 
-const __Singletons := preload("res://addons/kanban_tasks/plugin_singleton/singletons.gd")
-const __Shortcuts := preload("res://addons/kanban_tasks/view/shortcuts.gd")
-const __EditContext := preload("res://addons/kanban_tasks/view/edit_context.gd")
-const __BoardData := preload("res://addons/kanban_tasks/data/board.gd")
-const __StageScript := preload("res://addons/kanban_tasks/view/stage/stage.gd")
-const __StageScene := preload("res://addons/kanban_tasks/view/stage/stage.tscn")
-const __TaskScript := preload("res://addons/kanban_tasks/view/task/task.gd")
-const __TaskScene := preload("res://addons/kanban_tasks/view/task/task.tscn")
-const __Filter := preload("res://addons/kanban_tasks/view/filter.gd")
-const __SettingsScript := preload("res://addons/kanban_tasks/view/settings/settings.gd")
+const __Singletons := preload("../../plugin_singleton/singletons.gd")
+const __Shortcuts := preload("../../view/shortcuts.gd")
+const __EditContext := preload("../../view/edit_context.gd")
+const __BoardData := preload("../../data/board.gd")
+const __StageScript := preload("../../view/stage/stage.gd")
+const __StageScene := preload("../../view/stage/stage.tscn")
+const __TaskScript := preload("../../view/task/task.gd")
+const __TaskScene := preload("../../view/task/task.tscn")
+const __Filter := preload("../../view/filter.gd")
+const __SettingsScript := preload("../../view/settings/settings.gd")
 
 signal show_documentation()
 
